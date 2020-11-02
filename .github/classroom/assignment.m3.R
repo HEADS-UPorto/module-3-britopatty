@@ -15,3 +15,7 @@ data_list
 
 # now remove the `obs` from `data_list` before running the next command
 new_data <- as.data.frame(data_list)
+new_data
+save(new_data, file = "output.rda")
+
+
